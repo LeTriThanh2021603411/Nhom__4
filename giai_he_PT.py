@@ -6,7 +6,7 @@ def Input1():
     return sopt
 def Input2():
     #so an 
-    soan = int(input("nhap so an cua phuong trinh: "))
+    soan = int(input("Nhap so an cua phuong trinh: "))
     return soan
 def test_input(sopt, soan):
     if (sopt != soan or sopt < 0 or soan < 0):
